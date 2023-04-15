@@ -1,0 +1,169 @@
+.data-visualization-cont {
+  background-color: var(--light-color);
+  width: 98%;
+  height: 100%;
+  border-radius: 10px;
+  margin-top: 1%;
+  padding: 2% 3% 3% 3%;
+}
+
+.data-visualization-cont-2 {
+  background-color: var(--light-color);
+  width: 98%;
+  height: 100%;
+  border-radius: 10px;
+  margin-top: 1%;
+  padding: 5% 3% 2% 3%;
+}
+
+#visit-insights {
+  margin-top: 5%;
+}
+
+.card-label {
+    padding-top: 2%;
+    padding-left: 4%;
+}
+
+.download-icon {
+   padding-right: 5%; 
+    color: #45517d;
+}
+
+.data-visualization-cont .header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.data-visualization-details {
+  padding: 5%;
+}
+
+.label {
+  color: #45517d;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.data-visualization-label {
+  font-family: "Montserrat-Bold";
+  color: #45517d;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.popup {
+  position:relative;
+  top: 40%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 6px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.popup .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.popup .header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.popup .header button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup .header button:hover {
+  background-color: #0069d9;
+}
+
+.popup .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup .content button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup .content button:hover {
+  background-color: #0069d9;
+}
+
+.popup .content button:first-of-type {
+  margin-right: 10px;
+}
+
+.dropdown {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown li {
+  margin: 5px 0;
+  cursor: pointer;
+  padding: 5px;
+  color: #000;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.dropdown li a {
+  padding: 5px 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown li:hover {
+  background-color: #45517d36;
+}
+
+.popup-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100vw;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .card-label {
+    padding-top: 2%;
+    padding-left: 5%;
+    font-size: 10px;
+  }
+  .download-icon {
+      padding-right: 10%; 
+  }
+  .data-visualization-cont {
+    padding: 2% 5% 1% 3%;
+  }
+}
+
+
+
+
+
+
+

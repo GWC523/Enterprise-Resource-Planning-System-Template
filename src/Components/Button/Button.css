@@ -1,0 +1,117 @@
+.spinning-loader {
+  display: flex;
+  justify-content: center;
+}
+
+.loader-btn {
+  width: 100%;
+  margin-top: 5%;
+  padding: 2.1%;
+  margin-left: 3%;
+}
+
+.export-btn {
+  width: 50%;
+  max-height: 50px;
+  font-family: "Gotham-Rounded-Bold";
+  background-color: transparent;
+  border: 1px solid var(--secondary-color);
+  box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: var(--secondary-color);
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  margin-left: -10%;
+  float: right;
+}
+
+.export-icon {
+  margin-right: 2%;
+}
+
+.main-cancel-btn-long-form {
+  position: relative !important;
+  border: none;
+  display: inline-block;
+  width: 10% !important;
+  border: 1px solid var(--secondary-color);
+  background: #FFFFFF;
+  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.1);
+  color: var(--secondary-color);
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
+  margin-right: 2%;
+}
+
+.main-save-btn-long-form {
+  position: relative !important;
+  border: none;
+  display: inline-block;
+  width: 10% !important;
+  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.1);
+  color: var(--light-color);
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
+  margin-right: 2%;
+}
+
+.main-delete-btn-form {
+  border: none;
+  width: 10% !important;
+  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.1);
+  color: var(--light-color);
+}
+
+.main-cancel-btn-form {
+  border: none;
+  width: 10% !important;
+  border: 1px solid var(--secondary-color);
+  background: #FFFFFF;
+  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.1);
+  color: var(--secondary-color);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+  .main-save-btn-long-form {
+    width: 30% !important;
+    margin-top: 5% !important;
+    margin-right: -6% !important;
+  }
+
+  .main-cancel-btn-long-form {
+    width: 30% !important;
+    margin-right: 2% !important;
+  }
+
+  .main-delete-btn-form {
+    width: 30% !important;
+    margin-right: 2% !important;
+  }
+
+  .main-cancel-btn-form {
+    width: 30% !important;
+    margin-right: 2% !important;
+  }
+
+  .form-btn-cont {
+    margin-top: 15% !important;
+  }
+}
+
+.modal-title-add-service {
+  color: var(--secondary-color);
+}
+
+.delete-icon {
+  color: var(--secondary-color);
+  font-size: 50px;
+  margin-right: 1%;
+  margin-bottom: 2%;
+}
+

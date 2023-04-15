@@ -1,0 +1,47 @@
+.validity-error {
+    color: var(--error-color);
+    text-transform: capitalize;
+    font-size: 11px;
+    margin-bottom: 1%;
+	z-index: 10;
+}
+
+div.callout {
+    font-size: 10px;
+	background-color: rgb(39, 38, 38);
+	background-image: -moz-linear-gradient(top, #444, #444);
+	position: relative;
+	color: #ccc;
+    width: 38%;
+    padding: 2px;
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px #999;
+	border: 1px solid #333;
+	text-shadow: 0 0 1px #000;
+	z-index: 10;
+}
+
+.callout::before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	border: 0.8em solid transparent;
+	position: absolute;
+	z-index: 10;
+}
+
+.callout.bottom::before {
+	left: 45%;
+	top: -19px;
+	border-bottom: 10px solid #444;
+	z-index: 10;
+}
+
+.error-icon {
+	padding-right: 3%;
+	color: #dc3444;
+}
+
+
+
+

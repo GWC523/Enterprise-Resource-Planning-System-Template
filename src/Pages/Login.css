@@ -1,0 +1,363 @@
+
+.page {
+    overflow-x: hidden !important;
+}
+
+.login-container {
+    height: 100vh !important;
+    --bs-gutter-x: 0 !important;
+    overflow-y: auto !important;
+}
+
+/** Left Portion **/
+.login-left-side {
+    animation-delay: 3s;
+    -webkit-animation-delay: 3s;
+    animation: fadein 5s;
+    -moz-animation: fadein 5s; /* Firefox */
+    -webkit-animation: fadein 5s; /* Safari and Chrome */
+    -o-animation: fadein 5s; /* Opera */
+}
+
+.login-logo {
+    margin-top: 5%;
+    width: 650px;
+    height: 650px;
+    z-index: 1;
+    object-fit: contain;
+}
+
+.login-bg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30%;
+
+    z-index: 0;
+}
+
+/** Right Portion **/
+
+
+.login-form {
+    color: #ffff;
+    margin: 14%;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+    z-index: 100;
+}
+
+.welcome-banner {
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 13%;
+
+}
+
+.instructions-banner {
+    font-size: 20px;
+    max-width: 75%;
+    text-align: left;
+    margin-left: 3%;
+    margin-bottom: 13%;
+}
+
+.login-input {
+    background: #FFFFFF;
+    border: 2px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 27px;
+    width: 103%;
+    margin-top: 5%;
+    padding: 2%;
+    padding-left: 12%;
+    z-index: 10;
+}
+
+.username-input {
+    width: 102.5% !important;
+    z-index: 100;
+}
+
+.remember-me-checkbox {
+    margin-right: 1%;
+}
+
+.remember-me-input {
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.user-icon {
+    position: relative;
+    float: left;
+    width: 5%;
+    margin-top: -32px;
+    margin-left: 5%;
+    color: #4c4c4c;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.password-icon {
+    position: relative;
+    float: left;
+    width: 5%;
+    margin-top: -33px;
+    margin-left: 5%;
+     color: #4c4c4c;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.eye-icon {
+    display: inline;
+    margin-left: -10%;
+    color: #4c4c4c;
+    cursor: pointer;
+}
+
+.eye-slash {
+    width: 4.7%;
+}
+
+.login-header {
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: slide 0.5s forwards;
+    animation-delay: 0.5s;
+}
+
+.icon-card {
+    background-color: var(--primary-color-transparent);
+    padding: 10% 10% 10% 10%;
+    margin: -4% 0% 0% 25%;
+    width: 50%;
+    border-radius: 25px;
+}
+
+.card-bg-1 {
+    background-color: #ef78bd41 !important;
+}
+
+.card-bg-2 {
+    background-color: #78b1ef63 !important;
+}
+
+.card-bg-3 {
+    background-color: #78efb12a !important;
+}
+
+.dollar-sign {
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+.dollar-sign-2 {
+    font-size: 30px;
+    color: #ef78a2e6;
+}
+
+.project-sign {
+    font-size: 30px;
+    color: #78b1ef;
+}
+
+.employee-sign {
+    font-size: 30px;
+    color: #78efb1e1;
+}
+
+/** Button **/
+.login-btn {
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 27px;
+    width: 100%; 
+    margin-top: 5%;
+    padding: 2.1%;
+    margin-left: 3%;
+}
+
+.login-btn:hover {
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+}
+
+/** Animated Background**/
+@keyframes animate {
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: #6a6fd7;
+    overflow: hidden;
+}
+.background li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 19s linear infinite;
+}
+
+.background li:nth-child(0) {
+    left: 80%;
+    width: 193px;
+    height: 193px;
+    bottom: -193px;
+    animation-delay: 1s;
+}
+.background li:nth-child(1) {
+    left: 75%;
+    width: 185px;
+    height: 185px;
+    bottom: -185px;
+    animation-delay: 2s;
+}
+.background li:nth-child(2) {
+    left: 48%;
+    width: 189px;
+    height: 189px;
+    bottom: -189px;
+    animation-delay: 3s;
+}
+.background li:nth-child(3) {
+    left: 20%;
+    width: 103px;
+    height: 103px;
+    bottom: -103px;
+    animation-delay: 4s;
+}
+.background li:nth-child(4) {
+    left: 12%;
+    width: 101px;
+    height: 101px;
+    bottom: -101px;
+    animation-delay: 11s;
+}
+.background li:nth-child(5) {
+    left: 59%;
+    width: 146px;
+    height: 146px;
+    bottom: -146px;
+    animation-delay: 3s;
+}
+.background li:nth-child(6) {
+    left: 20%;
+    width: 116px;
+    height: 116px;
+    bottom: -116px;
+    animation-delay: 7s;
+}
+.background li:nth-child(7) {
+    left: 32%;
+    width: 146px;
+    height: 146px;
+    bottom: -146px;
+    animation-delay: 17s;
+}
+.background li:nth-child(8) {
+    left: 75%;
+    width: 162px;
+    height: 162px;
+    bottom: -162px;
+    animation-delay: 3s;
+}
+.background li:nth-child(9) {
+    left: 50%;
+    width: 195px;
+    height: 195px;
+    bottom: -195px;
+    animation-delay: 6s;
+}
+/** Media Queries **/
+
+/** Mobile **/
+@media (max-width: 1000px){
+    /** Left Portion **/
+    .login-logo {
+        width: 100%;
+        height: 100%;
+        margin-top: 1%;
+    }
+    .login-bg {
+        visibility: hidden;
+    }
+}
+
+/** 4K **/
+@media (min-width: 2560px) {
+    /** Left Portion **/
+    .login-logo {
+        width: 30%;
+    }
+    .login-bg {
+        width: 26%;
+    }
+}
+
+/** Animation **/
+@-webkit-keyframes slide {
+    100% { margin-left: 5%; }
+}
+
+@keyframes slide {
+    100% { margin-left: 5%; }
+}
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}

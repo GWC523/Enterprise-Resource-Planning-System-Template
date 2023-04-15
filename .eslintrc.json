@@ -1,0 +1,141 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "airbnb-typescript",
+    "plugin:import/typescript",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "project": "./tsconfig.json"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "prettier"
+  ],
+  "rules": {
+    "quotes": [
+      "error",
+      "double",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "react/jsx-filename-extension": [
+      "off",
+      {
+        "allow": null,
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "@typescript-eslint/quotes": [
+      "error",
+      "double",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "off"
+    ],
+    "react/jsx-uses-react": [
+      "off"
+    ],
+    "react/react-in-jsx-scope": [
+      "off"
+    ],
+    "react/jsx-props-no-spreading": [
+      "off"
+    ],
+    "no-shadow": "off",
+    "prettier/prettier": [
+      "off",
+      null,
+      null
+    ],
+    "spaced-comment": [
+      "off",
+      "never",
+      {
+        "exceptions": null,
+        "markers": null,
+        "line": {
+          "exceptions": [
+            "-",
+            "+"
+          ],
+          "markers": [
+            "=",
+            "!",
+            "/"
+          ]
+        },
+        "block": {
+          "exceptions": [
+            "-",
+            "+"
+          ],
+          "markers": [
+            "=",
+            "!",
+            ":",
+            "::"
+          ],
+          "balanced": true
+        }
+      }
+    ],
+    "no-plusplus": [
+      "off",
+      {
+        "allowForLoopAfterthoughts": false
+      }
+    ],
+    "object-shorthand": [
+      "off"
+    ],
+    "no-console": [
+      "off",
+      {
+        "allow": null
+      }
+    ],
+    "consistent-return": [
+      "off",
+      {
+        "treatUndefinedAsUnspecified": false
+      }
+    ],
+    "no-unused-vars": [
+      "off"
+    ],
+    "@typescript-eslint/no-shadow": [
+      "off",
+      {
+        "builtinGlobals": null,
+        "hoist": null,
+        "allow": null,
+        "ignoreOnInitialization": null,
+        "ignoreTypeValueShadow": null,
+        "ignoreFunctionTypeParameterNameValueShadow": null
+      }
+    ],
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
+  }
+}

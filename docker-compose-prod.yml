@@ -1,0 +1,18 @@
+version: "3.8"
+services: 
+  react-app: 
+    build: 
+      context: .
+      dockerfile: Dockerfile.prod
+      args: 
+        - REACT_APP_NAME=react_app
+    ports: 
+      - "8080:80"
+    environment: 
+      - REACT_APP_NAME=react_app
+      - REACT_APP_Link=https://sfasolapi.myt-enterprise.com/
+    # env_file:
+    # - ./.env
+    # stdin_open: true (if it doesn't work)
+    #tty: true
+

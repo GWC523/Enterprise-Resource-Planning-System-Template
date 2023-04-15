@@ -1,0 +1,81 @@
+
+.welcome-card-cont {
+    background-color: var(--secondary-color);
+    width: 98%;
+    border-radius: 10px;
+    color: #ffff;
+}
+
+.welcome-card-details {
+    padding: 3%;
+}
+
+.greetings {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.welcome-card-user {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.welcome-card-time {
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.welcome-card-time-cont {
+    margin-top: -4%;
+}
+
+.welcome-card-date-cont {
+    margin-top: -4%;
+    margin-bottom: 5%;
+    font-weight: bolder;
+}
+/* 
+.leaf-cont {
+    margin-top: -4%;
+} */
+
+.leaf {
+    width: 20%;
+}
+
+.welcome-card-user {
+    margin-top: 25%;
+    width: 90%;
+}
+
+.welcome-card-badge {
+    width: 25%;
+    z-index: 1;
+    margin-top: -35%;
+    margin-left: 50%;
+}
+
+.positive {
+    color: #48ee77;
+}
+
+.negative {
+    color: #ee4848;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .welcome-card-cont {
+        font-size: 8px;
+    }
+
+    .welcome-card-details {
+        padding: 4% 4% 4% 8%;
+    }
+
+    .greetings {
+        font-size: 12px;
+    }
+
+}
+

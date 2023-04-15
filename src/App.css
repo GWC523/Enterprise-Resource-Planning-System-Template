@@ -1,0 +1,237 @@
+* {
+    /*** Define font family ***/
+    font-family: "Gotham-Rounded-Medium";
+}
+
+
+/** Define or edit your color constants here **/
+body {
+  /** GENERAL **/
+  --active: #1c8f3f;
+  --inactive: #dc3444;
+
+  /** LIGHT MODE **/
+  --primary-color: #5e60f0;
+  --primary-color-transparent: #5e60f067;
+  --secondary-color: #2b3259;
+  --secondary-light-color: #898bf46b;
+  --tertiary-color: #000;
+  --light-color: #FFFFFF;
+  --background: #f7f7f7;
+  --error-color: #dc3444;
+  --grey-color: #6e6e6e;
+
+
+
+
+  /** DARK MODE **/
+  --dark-background: #101010;
+  --medium-dark-background: #1d1c1c;
+  --secondary-dark-color: #0f0416;
+  --modal-color: #3d0560db;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/** LIGHT MODE **/
+#light {
+  background-color: var(--background);
+}
+
+/** DARK MODE **/
+#dark {
+  background-color: var(--dark-background);
+}
+
+#dark .card-cont {
+  background-color: var(--secondary-dark-color);
+  color: var(--light-color);
+}
+
+#dark .card-cont-2 {
+  background-color: var(--modal-color);
+  color: var(--light-color);
+}
+
+#dark li {
+  color: var(--light-color);
+}
+
+#dark .login-input {
+  background-color: var(--dark-background) !important;
+  color: rgb(255, 255, 255);
+}
+
+#dark .user-icon,
+#dark .password-icon,
+#dark .eye-icon {
+  color: rgb(255, 255, 255);
+}
+
+#dark .page {
+  background-color: var(--dark-background) !important;
+}
+
+#dark .page-subtitle {
+  color: var(--light-color);
+}
+
+#dark .tableFooter {
+  color: var(--light-color);
+}
+
+#dark td {
+  background-color: var(--medium-dark-background) !important;
+  color: var(--light-color);
+}
+
+#dark .Active {
+  color: var(--active)
+}
+
+#dark .search-input {
+  background-color: var(--medium-dark-background) !important;
+}
+
+#dark .search-input::placeholder {
+  color: var(--light-color);
+}
+
+#dark span {
+  color: var(--light-color);
+}
+
+#dark input, #dark select {
+  background-color: var(--medium-dark-background) !important;
+  color: var(--light-color);
+  border: 1px solid var(--light-color)
+}
+
+#dark .input-subtitle {
+  color: var(--light-color);
+}
+
+/** HTML Default Overrides **/
+textarea:focus,
+.input-1:focus,
+select:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: var(--secondary-color);
+  box-shadow: 0 0.5px 1px rgba(0, 0, 0, 0.075) inset, 0 0 3px var(--secondary-color);
+  outline: 0 none;
+}
+
+#dark .input-multi {
+  color: var(--light-color);
+}
+
+#dark .css-6j8wv5-Input, #dark .css-e2a5sc-control, #dark .css-b62m3t-container, #dark .css-26l3qy-menu, #dark .css-ju8tbi-control, #dark .css-1pndypt-Input {
+  background-color: var(--medium-dark-background) !important;
+  color: var(--secondary-color);
+}
+
+
+#dark .css-6j8wv5-Input:focus, #dark .css-e2a5sc-control:focus {
+  background-color: var(--medium-dark-background) !important;
+  color: var(--light-color);
+}
+
+#dark .upload-area, #dark textarea {
+  background-color: var(--medium-dark-background) !important;
+}
+
+#dark .upload-icon {
+  color: var(--light-color);
+}
+
+#dark .main-cancel-btn-long-form {
+  background-color: var(--medium-dark-background) !important;
+}
+
+#dark .tableFooter {
+  background-color: var(--primary-color) !important;
+}
+
+/** Bootstrap Overrides **/
+.row>* {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/** Inputs **/
+.input-title {
+  text-transform: capitalize;
+  font-family: 'Gotham-Rounded-Bold';
+  color: var(--secondary-color);
+}
+
+.input-1 {
+  border: 1px solid #4b4b4b68;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 3%;
+  padding: 1%;
+}
+
+.input-subtitle {
+  font-family: 'Gotham-Rounded-Bold';
+  font-family: 'Gotham-Rounded-Bold';
+}
+
+.checkbox-1 {
+   margin-left: 1%;
+}
+
+.textarea-1 {
+  border: 1px solid #4b4b4b68;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.radio-label-2 {
+  margin-left: 2%;
+  margin-right: 3%;
+}
+

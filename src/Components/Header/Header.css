@@ -1,0 +1,64 @@
+.page-title {
+    font-family: 'Gotham-Rounded-Bold';
+    color: var(--secondary-color);
+    letter-spacing: 0.03em;
+}
+
+.page-subtitle {
+  margin-top: -1%;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.search-input {
+  background: #ffffff;
+  border: 1px solid #a4a4a5;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  padding-left: 5%;
+  padding-right: 10%;
+  z-index: 0;
+}
+
+.search-icon {
+  display: inline;
+  width: 5%;
+  margin-left: -10%;
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+
+.filter-label {
+    margin-right: 2%;
+}
+
+.filter-input {
+    margin-right: 2%;
+    border-radius: 5px;
+    border: 1px solid #4b4b4b68;
+    padding: 0.5%;
+}
+
+ @media (min-width:320px) and (max-width: 480px) {
+  .page-count-cont {
+    font-size: 9px;
+  }
+
+  .button {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+
+ .filter-input {
+  margin-bottom: 10% !important;
+  width: 30%;
+ }
+
+   .tableFooter {
+    min-width: 200px !important;
+  }
+
+
+ }

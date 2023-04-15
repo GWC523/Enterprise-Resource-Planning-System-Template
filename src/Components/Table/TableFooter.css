@@ -1,0 +1,115 @@
+.tableFooter {
+  background-color: hsla(0, 0%, 76.9%, 0.2196078431372549);
+  min-width: 414px;
+  width: 100%;
+  padding: 8px 15px;
+  font-weight: 500;
+  text-align: left;
+  font-size: 16px;
+  color: #2c3e50;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  overflow-x: auto !important;
+  display: flex !important;
+  flex-wrap: wrap;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.page-count-cont {
+  margin-top: 1% !important;
+  font-size: 12px;
+}
+
+.button {
+  border: none;
+  padding: 7px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.activeButton {
+  color: white;
+  background: var(--primary-color);
+}
+
+.inactiveButton {
+  color: #2c3e50;
+  background: #f9f9f9;
+}
+
+.navigateButton {
+  color: #2c3e50;
+  background: #f9f9f9;
+}
+
+.rows-input {
+  margin-right: 5%;
+  margin-left: 1%;
+}
+
+.page-number-input {
+  min-width: 14%;
+}
+
+.disable {
+  background-color: rgb(190, 190, 190);
+}
+
+@media only screen and (max-width: 1000px) {
+  .register-mobile,
+  .user-mobile {
+    min-width: 492px;
+  }
+
+  .search-mobile {
+    min-width: 795px;
+  }
+
+  .company-mobile {
+    min-width: 462px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .page-count-cont {
+    display: none;
+  }
+
+  .pages-cont {
+    margin-left: 10%;
+  }
+
+  .search-wrapper {
+    margin-bottom: 5%;
+  }
+
+  .add-btn {
+    width: 50% !important;
+    font-size: 12px;
+  }
+
+  .export-btn {
+    width: 50% !important;
+    font-size: 10px;
+  }
+
+  .util-btn-cont.row > * {
+    width: 0% !important;
+  }
+
+  .util-btn-cont {
+    margin-bottom: 10%;
+  }
+
+  .page-number-input {
+    width: 70%;
+  }
+
+  .button {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}

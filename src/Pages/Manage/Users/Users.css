@@ -1,0 +1,80 @@
+.add-btn {
+  width: 50%;
+  max-height: 50px;
+  font-family: "Gotham-Rounded-Bold";
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: var(--light-color);
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+  float: right;
+}
+
+.add-btn:hover {
+  background-color: transparent;
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .input-subtitle {
+    margin-top: 3%;
+  }
+
+  .checkbox-label {
+    margin-top: 5%;
+  }
+
+  .remarks-label {
+    margin-top: 10%;
+  }
+
+  .branches-label {
+    margin-top: 10% !important;
+  }
+
+  .branches-label {
+    width: 30%;
+  }
+
+  .main-save-btn-long-form {
+    width: 30% !important;
+    margin-top: 5% !important;
+    margin-right: -6% !important;
+  }
+
+  .main-cancel-btn-long-form {
+    width: 30% !important;
+    margin-right: 2% !important;
+  }
+
+  .main-delete-btn-form {
+    width: 30% !important;
+    margin-right: 2% !important;
+  }
+
+  .main-cancel-btn-form {
+    width: 30% !important;
+    margin-right: 2% !important;
+  }
+
+  .form-btn-cont {
+    margin-top: 15% !important;
+  }
+}
+
+.modal-title-add-service {
+  color: var(--secondary-color);
+}
+
+.delete-icon {
+  color: var(--secondary-color);
+  font-size: 50px;
+  margin-right: 1%;
+  margin-bottom: 2%;
+}
