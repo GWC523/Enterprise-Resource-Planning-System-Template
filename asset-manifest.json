@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Enterprise-Resource-Planning-System-Template/static/css/main.b8c99d5f.css",
-    "main.js": "/Enterprise-Resource-Planning-System-Template/static/js/main.a81bfa03.js",
+    "main.js": "/Enterprise-Resource-Planning-System-Template/static/js/main.7c77292f.js",
     "static/js/963.f5ef4790.chunk.js": "/Enterprise-Resource-Planning-System-Template/static/js/963.f5ef4790.chunk.js",
     "static/js/413.15660589.chunk.js": "/Enterprise-Resource-Planning-System-Template/static/js/413.15660589.chunk.js",
     "static/js/52.d0473d4c.chunk.js": "/Enterprise-Resource-Planning-System-Template/static/js/52.d0473d4c.chunk.js",
@@ -17,13 +17,13 @@
     "static/media/logo.png": "/Enterprise-Resource-Planning-System-Template/static/media/logo.d32eb2a88a4d6d742b46.png",
     "index.html": "/Enterprise-Resource-Planning-System-Template/index.html",
     "main.b8c99d5f.css.map": "/Enterprise-Resource-Planning-System-Template/static/css/main.b8c99d5f.css.map",
-    "main.a81bfa03.js.map": "/Enterprise-Resource-Planning-System-Template/static/js/main.a81bfa03.js.map",
+    "main.7c77292f.js.map": "/Enterprise-Resource-Planning-System-Template/static/js/main.7c77292f.js.map",
     "963.f5ef4790.chunk.js.map": "/Enterprise-Resource-Planning-System-Template/static/js/963.f5ef4790.chunk.js.map",
     "413.15660589.chunk.js.map": "/Enterprise-Resource-Planning-System-Template/static/js/413.15660589.chunk.js.map",
     "52.d0473d4c.chunk.js.map": "/Enterprise-Resource-Planning-System-Template/static/js/52.d0473d4c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8c99d5f.css",
-    "static/js/main.a81bfa03.js"
+    "static/js/main.7c77292f.js"
   ]
 }
