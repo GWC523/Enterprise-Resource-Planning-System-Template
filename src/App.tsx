@@ -30,11 +30,13 @@ export const ThemeContext = React.createContext<IThemeContext>({
 });
 
 function App() {
+  document.title = "ERP SYSTEM"
+
   //Authenticate
   const [isAuthenticated, setIsAuthenticated] = useState(getUser());
 
   //Set light mode or dark mode
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const [isChecked, setIsChecked] = useState(false);
 
   const toggleTheme = () => {
