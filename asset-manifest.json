@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/Enterprise-Resource-Planning-System-Template/static/css/main.b8c99d5f.css",
-    "main.js": "/Enterprise-Resource-Planning-System-Template/static/js/main.dd980104.js",
-    "static/js/963.f5ef4790.chunk.js": "/Enterprise-Resource-Planning-System-Template/static/js/963.f5ef4790.chunk.js",
-    "static/js/413.15660589.chunk.js": "/Enterprise-Resource-Planning-System-Template/static/js/413.15660589.chunk.js",
-    "static/js/52.d0473d4c.chunk.js": "/Enterprise-Resource-Planning-System-Template/static/js/52.d0473d4c.chunk.js",
-    "static/media/Montserrat-Italic.ttf": "/Enterprise-Resource-Planning-System-Template/static/media/Montserrat-Italic.e7728c27ba36b97eb82f.ttf",
-    "static/media/Montserrat-Regular.ttf": "/Enterprise-Resource-Planning-System-Template/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/Montserrat-Bold.ttf": "/Enterprise-Resource-Planning-System-Template/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
-    "static/media/GothamRoundedBold_21016.ttf": "/Enterprise-Resource-Planning-System-Template/static/media/GothamRoundedBold_21016.ae3b95d0c6532a167baf.ttf",
-    "static/media/GothamRounded-Medium.otf": "/Enterprise-Resource-Planning-System-Template/static/media/GothamRounded-Medium.10d88929ec344e9ef796.otf",
-    "static/media/VarelaRound-Regular.ttf": "/Enterprise-Resource-Planning-System-Template/static/media/VarelaRound-Regular.411276fd0f0ace860019.ttf",
-    "static/media/login_banner.png": "/Enterprise-Resource-Planning-System-Template/static/media/login_banner.f23417b83fb2c1df558d.png",
-    "static/media/ConcertOne-Regular.ttf": "/Enterprise-Resource-Planning-System-Template/static/media/ConcertOne-Regular.b541886366d88b383879.ttf",
-    "static/media/Gotham-Rounded-Light.otf": "/Enterprise-Resource-Planning-System-Template/static/media/Gotham-Rounded-Light.c419ae3fa89ec785b0aa.otf",
-    "static/media/logo.png": "/Enterprise-Resource-Planning-System-Template/static/media/logo.d32eb2a88a4d6d742b46.png",
-    "index.html": "/Enterprise-Resource-Planning-System-Template/index.html",
-    "main.b8c99d5f.css.map": "/Enterprise-Resource-Planning-System-Template/static/css/main.b8c99d5f.css.map",
-    "main.dd980104.js.map": "/Enterprise-Resource-Planning-System-Template/static/js/main.dd980104.js.map",
-    "963.f5ef4790.chunk.js.map": "/Enterprise-Resource-Planning-System-Template/static/js/963.f5ef4790.chunk.js.map",
-    "413.15660589.chunk.js.map": "/Enterprise-Resource-Planning-System-Template/static/js/413.15660589.chunk.js.map",
-    "52.d0473d4c.chunk.js.map": "/Enterprise-Resource-Planning-System-Template/static/js/52.d0473d4c.chunk.js.map"
+    "main.css": "/static/css/main.67e6f91c.css",
+    "main.js": "/static/js/main.8930aa81.js",
+    "static/js/963.f5ef4790.chunk.js": "/static/js/963.f5ef4790.chunk.js",
+    "static/js/413.15660589.chunk.js": "/static/js/413.15660589.chunk.js",
+    "static/js/52.d0473d4c.chunk.js": "/static/js/52.d0473d4c.chunk.js",
+    "static/media/Montserrat-Italic.ttf": "/static/media/Montserrat-Italic.e7728c27ba36b97eb82f.ttf",
+    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Montserrat-Bold.ttf": "/static/media/Montserrat-Bold.079ca05d3ded9bc107ab.ttf",
+    "static/media/GothamRoundedBold_21016.ttf": "/static/media/GothamRoundedBold_21016.ae3b95d0c6532a167baf.ttf",
+    "static/media/GothamRounded-Medium.otf": "/static/media/GothamRounded-Medium.10d88929ec344e9ef796.otf",
+    "static/media/VarelaRound-Regular.ttf": "/static/media/VarelaRound-Regular.411276fd0f0ace860019.ttf",
+    "static/media/login_banner.png": "/static/media/login_banner.f23417b83fb2c1df558d.png",
+    "static/media/ConcertOne-Regular.ttf": "/static/media/ConcertOne-Regular.b541886366d88b383879.ttf",
+    "static/media/Gotham-Rounded-Light.otf": "/static/media/Gotham-Rounded-Light.c419ae3fa89ec785b0aa.otf",
+    "static/media/logo.png": "/static/media/logo.d32eb2a88a4d6d742b46.png",
+    "index.html": "/index.html",
+    "main.67e6f91c.css.map": "/static/css/main.67e6f91c.css.map",
+    "main.8930aa81.js.map": "/static/js/main.8930aa81.js.map",
+    "963.f5ef4790.chunk.js.map": "/static/js/963.f5ef4790.chunk.js.map",
+    "413.15660589.chunk.js.map": "/static/js/413.15660589.chunk.js.map",
+    "52.d0473d4c.chunk.js.map": "/static/js/52.d0473d4c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8c99d5f.css",
-    "static/js/main.dd980104.js"
+    "static/css/main.67e6f91c.css",
+    "static/js/main.8930aa81.js"
   ]
 }
