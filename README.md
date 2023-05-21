@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Enterprise Resource Planning System Template 🏢
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width="1440" alt="image" src="https://github.com/GWC523/Enterprise-Resource-Planning-System-Template/assets/56357171/126b34e2-644c-4ba4-8047-afd7d6551c03">
 
-## Available Scripts
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+📋 Minimal UI\
+📋 Toast Bar Notifications\
+📋 Convert Data Visualizations to PNG or CSV\
+📋 Dark Mode\
+📋 Export Data to PDF\
+📋 Export Data to CSV\
+📋 Search and Filter Data Table\
+📋 Covert Data Visualizations to PNG or CSV\
+📋 Code Format Checker with Husky, ESLint, and Prettier\
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+View Demo: https://gwc523.github.io/Enterprise-Resource-Planning-System-Template/#/
 
-### `npm test`
+## How to Use ⚒️
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+From your command line, first clone Portfolio-v1:
 
-### `npm run build`
+```bash
+# Clone the repository
+$ git clone https://github.com/GWC523/Enterprise-Resource-Planning-System-Template.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Move into the repository
+$ cd enterprise-resource-planning-system-template
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Remove the current origin repository
+$ git remote remove origin
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Then install the dependencies using NPM
 
-### `npm run eject`
+```bash
+# 2022 Update - Fix Dependencies
+$ npm audit fix
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Install dependencies
+$ npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Start the development server
+$ npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technologies Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+- [Sass](https://sass-lang.com/documentation)
+- [Fontawesome](https://fontawesome.com/docs)
+- [React Hot Toast](https://react-hot-toast.com/)
+- [React ChartJS](https://www.npmjs.com/package/react-chartjs-2)
+- [React CSV](https://www.npmjs.com/package/react-csv)
+- [File Saver](https://www.npmjs.com/package/file-saver)
+- [Axios](https://www.npmjs.com/package/axios)
+- [Husky](https://github.com/typicode/husky)
+- [ESLint](https://eslint.org/docs/latest/)
+- [Prettier](https://prettier.io/docs/en/index.html)
 
-## Learn More
+## License 📄
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Author
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Gwyneth Chiu - https://github.com/GWC523
