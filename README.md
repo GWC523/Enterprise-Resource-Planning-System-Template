@@ -20,7 +20,7 @@ View Demo: https://gwc523.github.io/Enterprise-Resource-Planning-System-Template
 
 ## How to Use ⚒️
 
-From your command line, first clone Portfolio-v1:
+From your command line, first clone Enterprise-Resource-Planning-System-Template:
 
 ```bash
 # Clone the repository
