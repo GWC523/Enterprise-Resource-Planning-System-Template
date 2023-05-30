@@ -18,6 +18,10 @@
 
 View Demo: https://gwc523.github.io/Enterprise-Resource-Planning-System-Template/#/
 
+Sample Credentials: 
+     username: user
+     password: user@123
+
 ## How to Use ⚒️
 
 From your command line, first clone Enterprise-Resource-Planning-System-Template:
