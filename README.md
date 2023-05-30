@@ -18,9 +18,10 @@
 
 View Demo: https://gwc523.github.io/Enterprise-Resource-Planning-System-Template/#/
 
-Sample Credentials: 
+Sample Credentials:
+
      username: user
-     password: user@123
+     password: user@123 
 
 ## How to Use ⚒️
 
