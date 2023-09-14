@@ -5,14 +5,14 @@
 
 ## Features
 
-📋 Minimal UI\
+📋 Minimalistic UI\
 📋 Toast Bar Notifications\
 📋 Convert Data Visualizations to PNG or CSV\
 📋 Dark Mode\
 📋 Export Data to PDF\
 📋 Export Data to CSV\
 📋 Search and Filter Data Table\
-📋 Covert Data Visualizations to PNG or CSV\
+📋 Convert Data Visualizations to PNG or CSV\
 📋 Code Format Checker with Husky, ESLint, and Prettier\
 
 
